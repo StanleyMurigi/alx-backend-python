@@ -2,7 +2,7 @@
 import asyncio
 import time
 from typing import List
-from 1_async_comprehension import async_comprehension
+async_comprehension = __import__('1_async_comprehension').async_comprehension
 
 async def measure_runtime() -> float:
     """
