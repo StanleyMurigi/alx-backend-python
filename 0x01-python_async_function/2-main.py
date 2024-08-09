@@ -7,5 +7,5 @@ measure_time = __import__('2-measure_runtime').measure_time
 n = 5
 max_delay = 12
 
-print(asyncio.run(measure_time(n, max_delay)))
+print(measure_time(n, max_delay))
 
